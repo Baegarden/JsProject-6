@@ -6,7 +6,7 @@
 <br><br>
 
 ### 기능 
-1. MY TEAM 정보   
-<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144848899-7a20ca5d-81c0-4821-8f1d-ac7795c3cdfe.png" width="45%" height="45%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/76520025/144848905-67e0fab2-4cb1-48f2-a32d-c03324045c06.png" width="45%" height="45%">    
+1. MY TEAM 정보  
+<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144848899-7a20ca5d-81c0-4821-8f1d-ac7795c3cdfe.png" width="45%" height="45%">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/76520025/144848905-67e0fab2-4cb1-48f2-a32d-c03324045c06.png" width="45%" height="45%">  
 2. 코리안리거 일정
 3. 리그별 정보 
