@@ -10,4 +10,4 @@
 * 리그별 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854043-91e0f78b-52ee-4aec-b7d2-2c9b9613aa2c.gif"></p>
 
 > ### Try-it! 
-https://check-my-football.herokuapp.com/(URL)
+👍 https://check-my-football.herokuapp.com/
