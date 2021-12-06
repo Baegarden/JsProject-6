@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>          
+        <title>CHECK MY FOOTBALL</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+        </style>
+        <link rel = "stylesheet" href = "index.css">
+        <script src="info.js" defer></script>
+        <script src="MyTeam.js" defer></script>
+        <script src="koreanLeaguerFrame.js" defer></script>
+        <script src="addKoreanLeaguerSchedule.js" defer></script>
+        <script src="leagueInfoFrame.js" defer></script>
+        <script src="addLeagueTable.js" defer></script>
+        <script src="addLeagueSchedule.js" defer></script>
+        <script src="nav.js" defer></script>
+        <script>history.scrollRestoration = "manual"</script>
+    </head>
+    <body>
+        <div id="logo">
+            <img src="logo.png">
+        </div>
+        <div id="nav">       
+            <nav>
+                <div id="underline"></div>
+                <a id="nav_1" href="javascript:void(0);">MY TEAM</a>
+                <span style="font-size: 44px; font-weight: 700;">/</span>
+                <a id="nav_2" href="javascript:void(0);">코리안리거 일정</a>
+                <span style="font-size: 44px; font-weight: 700;">/</span>
+                <a id="nav_3" href="javascript:void(0);">리그 별 정보</a>
+            </nav>   
+        </div>
+        <div id="selectMyteam" style="display: block;">
+            <div id="notice">MY TEAM을 설정해주세요</div>
+            <div id="selectMyteamContent">
+                <div class="myTeam">
+                    <div class="myTeamTitle">해외리그</div>
+                    <select id="myTeam1_League">
+                        <option selected="selected" hidden="hidden">리그 선택</option>
+                        <option>프리미어리그</option>
+                        <option>분데스리가</option>
+                        <option>라리가</option>
+                        <option>세리에A</option>
+                        <option>리그앙</option>
+                    </select>
+                    <select id="myTeam1_Team" length="10">
+                        <option selected="selected" hidden="hidden">팀 선택</option>
+                    </select>
+                </div>      
+                <div class="myTeam">
+                    <div class="myTeamTitle">국내리그</div>
+                    <select id="myTeam2_League">
+                        <option selected="selected" hidden="hidden">리그 선택</option>
+                        <option>K리그1</option>
+                        <option>K리그2</option>                
+                    </select>
+                    <select id="myTeam2_Team" length="10">
+                        <option selected="selected" hidden="hidden">팀 선택</option>
+                    </select>
+                </div>
+            </div>
+            <div id="submitMyteam">
+                <input id="submitBtn" type="button" value="완료">
+            </div>
+        </div>
+        <div id="myTeamInfo" style="display: none;">
+            <div id="myTeamInfoContent"></div>
+            <div id="changeMyteam">
+                <input id="changeBtn" type="button" value="변경">
+            </div>
+        </div>
+        <div id="famousSaying"></div>
+    </body>
+</html>

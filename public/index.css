@@ -1,0 +1,383 @@
+/* 공통 */
+body {
+  overflow-x: hidden;
+  font-family: "Noto Sans KR", sans-serif;
+  color: rgb(45, 43, 46);
+  font-weight: 500;
+}
+
+table,
+tr,
+td {
+  position: relative;
+  border: 1px solid;
+  border-color: #d4d4d4 transparent;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(45, 43, 46);
+  color: #ffffff;
+}
+
+th {
+  font-weight: 400;
+}
+
+/* 네비게이션 바 */
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+#logo {
+  position: fixed;
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+#logo img {
+  width: 13%;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  height: 66px;
+}
+
+nav a {
+  position: relative;
+  margin: 0 40px;
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(45, 43, 46);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  font-size: 46px;
+}
+
+nav #underline {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: rgb(45, 43, 46);
+  bottom: -9px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+/* MY TEAM */
+select {
+  border: 1px solid rgb(45, 43, 46);
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 6px;
+}
+
+select:hover {
+  border: 1px solid #23a3a7;
+}
+
+#selectMyteam,
+#myTeamInfo {
+  padding-top: 220px;
+}
+
+#selectMyteam,
+#submitMyteam,
+#changeMyteam {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#selectMyteamContent,
+#myTeamInfoContent {
+  position: relative;
+  z-index: 1;
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.myTeam {
+  width: 550px;
+}
+
+#myTeam1,
+#myTeam2 {
+  width: 550px;
+  border-top: 1px solid rgb(45, 43, 46);
+  border-bottom: 1px solid rgb(45, 43, 46);
+}
+
+.myTeamTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#submitBtn,
+#changeBtn {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #ffffff;
+  border: 1px solid rgb(45, 43, 46);
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  margin: 80px;
+  border-radius: 4px;
+}
+
+#submitBtn:hover,
+#changeBtn:hover {
+  /*마우스 오버했을때의 효과*/
+  color: #23a3a7;
+  border: 1px solid #23a3a7;
+}
+
+#notice {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.myTeam_Info {
+  padding: 20px 10px 0px 10px;
+}
+
+.myTeam_Info_name {
+  font-size: 35px;
+  font-weight: 500;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+.myTeam_Info .emblem {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+}
+
+.myTeam_Info_ranking {
+  width: auto;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.myTeam_Schedule {
+  padding: 20px 10px 0px 10px;
+  text-align: center;
+}
+
+.myTeam_Schedule .emblem {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin: 0px 15px;
+}
+
+.home {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+.away {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+.nextMatch {
+  padding: 0px 10px 0px 10px;
+  text-align: left;
+}
+
+.date {
+  margin-bottom: 20px;
+}
+
+.round {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#famousSaying {
+  text-align: center;
+}
+
+/* 코리안리거 */
+#koreanLeaguerSchedule {
+  padding-top: 220px;
+  margin-top: 150px;
+}
+
+.koreanLeaguerScheduleContent {
+  position: relative;
+  z-index: 1;
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.koreanLeaguerScheduleContent tr {
+  height: 60px;
+}
+
+.koreanLeaguerScheduleContent .emblem {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin: 0 10px 0 10px;
+}
+
+/* 리그 선택 버튼 */
+#selectLeague {
+  text-align: center;
+  margin-top: 150px;
+  padding-top: 200px;
+  margin-bottom: 15px;
+}
+
+.box-radio-input input[type="radio"] {
+  display: none;
+}
+
+.box-radio-input input[type="radio"] + span {
+  display: inline-block;
+  background: none;
+  border: 1px solid #d4d4d4;
+  text-align: center;
+  height: 35px;
+  width: 125px;
+  line-height: 33px;
+  font-weight: 700;
+  color: #d4d4d4;
+  cursor: pointer;
+  transition-property: all; /*속성값*/
+  transition-duration: 0.3s; /*효과를 완료하는데 걸리는 시간*/
+  transition-timing-function: ease-in-out; /*효과의 속도곡선*/
+  transition-delay: 0; /*효과의 지연되는 시간*/
+}
+.box-radio-input input[type="radio"]:hover + span {
+  color: #23a3a7;
+}
+
+.box-radio-input input[type="radio"]:checked + span {
+  border: 1px solid #23a3a7;
+  color: #23a3a7;
+}
+
+/* 리그 정보 공통 */
+.leagueContent {
+  position: relative;
+  z-index: 1;
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leagueTitle {
+  text-align: center;
+  margin: 0 auto;
+}
+
+tr,
+.leagueSchedule thead tr,
+.koreanLeaguerScheduleContent thead tr {
+  height: 30px;
+}
+
+.leagueSchedule tr {
+  height: 60px;
+}
+
+caption {
+  margin-bottom: 20px;
+}
+
+.leagueImage {
+  width: 5%;
+  height: 5%;
+}
+
+.inner {
+  text-align: center;
+}
+
+/* 리그 순위 관련 */
+.teamName span {
+  margin-left: 18px;
+}
+
+.teamName .inner {
+  text-align: left;
+}
+
+.leagueTable .emblem {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0 8px 0 8px;
+}
+
+.state_1,
+.state_2,
+.state_3 {
+  position: absolute;
+  width: 4px;
+  left: 0px;
+  top: 1px;
+  right: auto;
+  bottom: 0;
+}
+
+.state_1 {
+  background-color: #0000ff;
+  opacity: 0.6;
+}
+
+.state_2 {
+  background-color: #ff6900;
+  opacity: 0.6;
+}
+
+.state_3 {
+  background-color: #ff0000;
+  opacity: 0.6;
+}
+
+/* 리그 일정 관련 */
+.homeTeam .inner {
+  text-align: right;
+}
+
+.awayTeam .inner {
+  text-align: left;
+}
+
+.leagueSchedule .emblem {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0 10px 0 10px;
+}

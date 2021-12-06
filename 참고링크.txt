@@ -1,0 +1,13 @@
+https://studyingpingu.tistory.com/39 -> [javascript] node.js POST json 데이터 보내는법 (fetch 사용)
+https://ghost4551.tistory.com/46 ->  [CORS 해결하기] CORS란?
+https://www.youtube.com/watch?v=PNtFSVU-YTI&t=203s - 6 분 안에 CORS 배우기
+https://xiubindev.tistory.com/115 ->  나를 너무나 힘들게 했던 CORS 에러 해결하기
+https://stackoverflow.com/questions/23259168/what-are-express-json-and-express-urlencoded ->  bodyparser, express.json(), express.urlencoded의 차이
+https://www.youtube.com/watch?v=HjWYK_ORW0w -> REST API란? NodeJS를 통해 만들기
+https://ingijjung.tistory.com/12 - 폼 필드 input type="radio" 디자인(CSS) 변경 하기
+https://m.blog.naver.com/onsway/221547112192 - 웹 폰트 사용하기
+https://foodsexer.tistory.com/67?category=952954 - 메뉴바(menubar) 만들기(HTML, CSS, JAVASCRIPT)
+https://androman.tistory.com/24 - <a/> 태그에서 웹페이지 이동 이벤트 막기
+https://velog.io/@ksh4820/JS-스크롤-이벤트-스크롤-위치-구하기 
+https://velog.io/@khw970421/Heroku-사용법-및-CORS-대처하기
+https://writingdeveloper.blog/290 - Heroku NodeJS 무료 서버 sleep 방지하기
