@@ -6,6 +6,8 @@
 
 > ### 소개 
 * MY TEAM 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854038-fa60b8ce-1863-4196-9330-2379c246dadf.gif"></p>
-* 코리안리거 일정<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854043-91e0f78b-52ee-4aec-b7d2-2c9b9613aa2c.gif"></p>
-* 리그별 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854063-14e25f80-dc4b-4dea-a500-9a99d2feb967.gif"></p>
+* 코리안리거 일정<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854063-14e25f80-dc4b-4dea-a500-9a99d2feb967.gif"></p>
+* 리그별 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854043-91e0f78b-52ee-4aec-b7d2-2c9b9613aa2c.gif"></p>
 
+> ### Try-it! 
+https://check-my-football.herokuapp.com/(URL)
