@@ -5,9 +5,9 @@
 그래서 한 페이지 내에서 원하는 정보들을 편하게 확인할 수 있는 웹을 개발하였습니다.<br><br><br>
 
 > ### 소개 
-* 💕 MY TEAM 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854038-fa60b8ce-1863-4196-9330-2379c246dadf.gif"></p><br>
-* 🙏 코리안리거 일정<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854063-14e25f80-dc4b-4dea-a500-9a99d2feb967.gif"></p><br>
-* 🛫 리그별 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/144854043-91e0f78b-52ee-4aec-b7d2-2c9b9613aa2c.gif"></p><br>
+* 💕 MY TEAM 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/145034413-c3170328-5c10-4557-8667-ea4f82795947.gif"></p><br>
+* 🙏 코리안리거 일정<p align="center"><img src="https://user-images.githubusercontent.com/76520025/145034431-3a5cfc47-33b9-4323-8064-eb68bc69cf4b.gif"></p><br>
+* 🛫 리그별 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/145034408-79ffb91d-120c-4439-868e-0a77efd425aa.gif"></p><br>
 
 > ### Try-it! 
 👍 https://check-my-football.herokuapp.com/
