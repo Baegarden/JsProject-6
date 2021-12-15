@@ -218,7 +218,7 @@ function getMyTeamSchedule(json, round, teamId, isSecond){
 
 function getMyTeamScheduleJson(res, round, teamId, isSecond){
     const matchid = res;
-    fetch("https://check-my-football.herokuapp.com/", {
+    fetch("http://localhost:3000/", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

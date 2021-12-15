@@ -122,7 +122,7 @@ function getSchedule(res, idx){
 
 function getScheduleJson(res, idx){
     const matchid = res;
-    fetch("https://check-my-football.herokuapp.com/", {
+    fetch("http://localhost:3000/", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

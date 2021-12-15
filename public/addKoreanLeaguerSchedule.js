@@ -162,7 +162,7 @@ function getKoreanSchedule(json, teamId){
 
 function getKoreanScheduleJson(res, teamId){
     const matchid = res;
-    fetch("https://check-my-football.herokuapp.com/", {
+    fetch("http://localhost:3000/", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -181,16 +181,22 @@ function getKoreanMatchDay(id, s, teamId){
     })
     .then(function(json){
         for(const matchday of json.matchdays){
-            const today = new Date();
-            const firstmatchDate = new Date(matchday.kickoffFirst);
-            const lastmatchDate = new Date(matchday.kickoffLast);
-            const fmonth = firstmatchDate.getMonth()+1;
-            const month = lastmatchDate.getMonth()+1;
-            const day = lastmatchDate.getDate();
-            if(Math.abs(month-fmonth) < 2 && month >= today.getMonth()+1 && day > today.getDate()){
+            if(matchday.isCurrentMatchday === true){
+                console.log(matchday.id);
                 getKoreanScheduleJson(matchday.id, teamId);
                 break;
             }
+            // const today = new Date();
+            // const firstmatchDate = new Date(matchday.kickoffFirst);
+            // const lastmatchDate = new Date(matchday.kickoffLast);
+            // const fmonth = firstmatchDate.getMonth()+1;
+            // const month = lastmatchDate.getMonth()+1;
+            // const day = lastmatchDate.getDate();
+            // if(Math.abs(month-fmonth) < 2 && month >= today.getMonth()+1 && day > today.getDate()){
+            //     console.log(teamId);
+            //     getKoreanScheduleJson(matchday.id, teamId);
+            //     break;
+            // }
         }
     });
 }

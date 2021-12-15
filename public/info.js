@@ -196,7 +196,6 @@ function rand(min, max) {
 
 function getFamousSaying() {  
     randNum = rand(0, famousSaying.length-1);
-    console.log(randNum);
     document.getElementById('famousSaying').innerText = famousSaying[randNum];
 }
 
