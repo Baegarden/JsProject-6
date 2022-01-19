@@ -5,7 +5,7 @@
 그래서 한 페이지 내에서 원하는 정보들을 간편하게 확인할 수 있는 웹 페이지을 개발하였습니다.<br><br><br>
 
 > ### 개발환경 
-HTML, CSS, JavaScript, Express.js
+HTML, CSS, JavaScript, Express.js, Heroku
 <br><br><br>
 
 > ### 소개 
