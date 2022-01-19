@@ -6,7 +6,7 @@
 
 > ### 개발환경 
 HTML, CSS, JavaScript, Express.js
-<br><br>
+<br><br><br>
 
 > ### 소개 
 * 💕 MY TEAM 정보<p align="center"><img src="https://user-images.githubusercontent.com/76520025/145034413-c3170328-5c10-4557-8667-ea4f82795947.gif"></p><br>
